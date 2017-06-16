@@ -1,0 +1,20 @@
+<?php 
+class luis_config extends default_config{
+	public function luis_config(){
+		parent::__construct();
+		//MXNPHP CONFIGURATION
+		$this->http_address = 'http://travelers/';
+		$this->mxnphp_dir = "c:/wamp/www/framework/";		
+
+		//SOFTWARE CONFIGURATION
+		$this->dev_mode = true;	
+		$this->lang = "en";
+			
+		//DATABASE CONFIGURATION
+		$this->db_host = 'localhost';
+		$this->db_name = 'travelers';
+		$this->db_user = 'root';
+		$this->db_pass = '';
+	}
+}
+?>

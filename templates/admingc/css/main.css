@@ -1,0 +1,31 @@
+#wrapper.login-page{padding: 0}
+#loginbox{margin: 20px auto!important;float: none;}
+#wrapper .navbar-brand{padding-top: 8px}
+#wrapper .navbar-brand img{margin-right: 8px;width: 68px}
+#wrapper.loginadmin{padding-left: 0}
+#wrapper .row , #wrapper select{margin-bottom: 10px}
+#wrapper input[type="submit"] , #wrapper button[type="submit"]{margin-top: 10px}
+#wrapper select{width: 30%}
+#wrapper textarea{max-width: 100%}
+#wrapper .row.cambiarbg img{width: 90%;}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+#page-wrapper{overflow: hidden;}
+
+select.form-control{width: auto!important}
+/*Accumulators*/
+.accumulated{display:block;float:left;background-color:#F4DB89;color:#331;margin:0px 8px 4px 0px;padding:8px;border-radius:5px;-moz-border-radius:5px;}
+.accumulated a{display:block;width:18px;height:17px;background-image:url('../img/delete_small.png');float:right;margin:0px 0px 0px 15px;}
+
+.uploaded_photos .photo{float:left;margin:10px 10px 10px 0px;width:100px;height:auto;position:relative}
+.uploaded_photos .photo a.option_erase{display:block;position:absolute;bottom:0px;width:100%;background-image:url(../img/red_pixel.png);text-align:center;font-size:11px;color:white;padding:2px 0px}
+.uploaded_photos .photo img{width: 100px}
+
+.modal-footer{margin-top: 0}
+.table-bordered thead:first-child tr:first-child > th:first-child, .table-bordered tbody:first-child tr:first-child > td:first-child, .table-bordered tbody:first-child tr:first-child > th:first-child{border-top-left-radius:4px;}
+
+@media all and (max-width: 480px) {
+	.navbar-brand .name{display: none}
+}

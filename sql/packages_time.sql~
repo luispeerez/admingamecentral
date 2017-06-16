@@ -1,0 +1,2 @@
+ALTER TABLE  `domain_packages` ADD  `publication_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+ALTER TABLE  `domain_packages` ADD  `expiration_hours` INT NOT NULL
